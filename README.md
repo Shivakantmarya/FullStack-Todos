@@ -18,3 +18,11 @@ A full-stack To-Do application built using **MongoDB, Express.js, React, Node.js
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose
 - **Authentication**: JWT (JSON Web Tokens)
 - **Styling**: CSS
+
+## 🌐 Live Deployment
+
+### 🔗 Frontend:
+https://mytodo-7kdf.onrender.com
+
+### 🔗 Backend API:
+https://mytodos-rvpc.onrender.com
