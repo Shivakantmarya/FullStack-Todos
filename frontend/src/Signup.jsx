@@ -3,7 +3,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 export default function Signup() {
-  const apiUrl = import.meta.env.VITE_API_URL;
+  // const apiUrl = import.meta.env.VITE_API_URL;
+  const apiUrl = "https://mytodos-rvpc.onrender.com";
   const navigate = useNavigate();
   const [data, setData] = useState({
     name: "",
