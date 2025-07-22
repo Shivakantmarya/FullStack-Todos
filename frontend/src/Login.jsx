@@ -3,8 +3,8 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
-  const apiUrl = import.meta.env.VITE_API_URL;
-  // console.log(apiUrl);
+  // const apiUrl = import.meta.env.VITE_API_URL;
+  const apiUrl = "https://mytodos-rvpc.onrender.com";
   const navigate = useNavigate();
 
   const [data, setData] = useState({
