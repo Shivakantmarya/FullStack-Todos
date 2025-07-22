@@ -3,7 +3,8 @@ import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function Home() {
-  const apiUrl = import.meta.env.VITE_API_URL;
+  // const apiUrl = import.meta.env.VITE_API_URL;
+  const apiUrl = "https://mytodos-rvpc.onrender.com";
   const [isClicked, setIsClicked] = useState(false);
   const [todo, setTodo] = useState("");
   const [todoData, setTodoData] = useState([]);
